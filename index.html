@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>MNTN</title>
-    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link rel="stylesheet" href="./fonts/gilroy/stylesheet.css" />
     <link rel="stylesheet" href="./fonts/playfairdisplay/stylesheet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,6 +24,7 @@
         <div class="container__wide">
           <div class="row space-between align-center">
             <div class="logo">MNTN</div>
+
             <div class="nav">
               <ul>
                 <li><a href="#"> Equipment </a></li>
@@ -31,6 +33,20 @@
               </ul>
             </div>
             <a href="#" class="account">Account</a>
+            <button class="nav__button">
+              <span class="nav__button__icon"></span>
+            </button>
+
+            <div class="mobile__nav">
+              <div class="nav">
+                <ul>
+                  <li><a href="#"> Equipment </a></li>
+                  <li><a href="#"> About us </a></li>
+                  <li><a href="#"> Blog </a></li>
+                </ul>
+              </div>
+              <a href="#" class="account">Account</a>
+            </div>
           </div>
         </div>
       </nav>
@@ -41,7 +57,7 @@
       </a>
     </header>
 
-    <main>
+    <main class="main">
       <div class="container">
         <article class="article">
           <div class="article__text" data-number="01">
@@ -87,7 +103,7 @@
           </div>
         </article>
         <article class="article">
-          <div class="article__text" data-number="01">
+          <div class="article__text" data-number="03">
             <div class="article__subtitle">GET STARTED</div>
             <div class="article__title">What level of hiker are you?</div>
             <p>
@@ -113,7 +129,7 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="row space-between">
+        <div class="footer__row space-between">
           <div class="footer__copyright">
             <div class="footer__copyright__logo">
               <div class="logo">MNTN</div>
@@ -151,6 +167,6 @@
       </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
